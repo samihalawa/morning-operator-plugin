@@ -1,0 +1,19 @@
+name: morning-operator
+description: |
+  Sami's autonomous morning operator. Runs the daily run-now protocol:
+  detect and close the highest-leverage incomplete, partial, stale, risky,
+  or recurring work across all active areas. Acts first, reports after.
+  Never asks permission. Never ends with a question.
+triggers:
+  - "morning operator"
+  - "morning run"
+  - "run my morning"
+  - "daily run"
+  - "morning sweep"
+  - "run now"
+  - "operator mode"
+  - "autonomous morning"
+instructions_file: ../skills/morning-operator/SKILL.md
+references:
+  - ../skills/morning-operator/references/execution-phases.md
+  - ../skills/morning-operator/references/report-format.md

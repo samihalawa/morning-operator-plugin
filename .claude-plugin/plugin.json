@@ -1,0 +1,21 @@
+{
+  "name": "morning-operator",
+  "version": "0.1.0",
+  "description": "Autonomous morning operator: detect and close the highest-leverage incomplete, partial, stale, or risky work each morning. Acts first, reports after. Sami's daily run-now protocol.",
+  "author": {
+    "name": "Sami Halawa",
+    "email": "samihalawaster@gmail.com"
+  },
+  "homepage": "https://github.com/samihalawa/morning-operator-plugin",
+  "repository": "https://github.com/samihalawa/morning-operator-plugin",
+  "license": "MIT",
+  "keywords": [
+    "autonomy",
+    "daily-run",
+    "morning-operator",
+    "audit",
+    "sweep",
+    "kiss",
+    "evidence-first"
+  ]
+}
