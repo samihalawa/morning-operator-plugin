@@ -34,6 +34,7 @@ Each morning, detect and close the highest-leverage incomplete, partial, stale, 
 15. Future-proofing: do not rely on stale project names, old ticket IDs, old SHAs, or old assumptions. Rediscover current reality each run.
 16. If a named tool/system is unavailable in this environment, use the nearest equivalent immediately and continue without asking. Log the substitution in 1 line.
 17. Output discipline: terse. Bullets > prose. No fluff, no cheerleading, no apologies, no hedging, no self-congratulation. Every line must add value.
+18. Context-check first, then act. Before any job/recruiter/inbox action, reconstruct state from CRM, Sent/Drafts, Calendar, and the full thread — never from the newest message, a draft, or a prior summary. Drafted ≠ sent; "attached" ≠ attachment present; old unanswered inbound ≠ user owes action; user corrections and later events supersede apparent state. Re-verify before and after acting; after two unanswered messages escalate via a different channel, never a third identical email.
 
 ## Proof Standard
 
