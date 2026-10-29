@@ -1,0 +1,6 @@
+interface:
+  display_name: "Morning Operator"
+  short_description: "Close current work with native proof and qualified rankings"
+  default_prompt: "Use $morning-operator for the authorized one-off sweep. Apply $inbox-forensic-action-operator-skill to correspondence, qualified opportunities, actual cash profit and public-case separation. Verify each action; preserve real external waits and do not create scheduled loops."
+policy:
+  allow_implicit_invocation: true

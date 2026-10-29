@@ -10,7 +10,7 @@ Read and verify the live state before deciding anything. Cheap reads first.
 - Active repo(s): branch, `git status`, `git stash list`, recent commits, open PRs.
 - Task systems: in-progress items, blockers, recent status changes (Linear, Notion, Asana, ClickUp, etc., per what is connected).
 - Alerts, CI, deploys, cron/jobs, uptime, error surfaces, dashboards.
-- Inboxes, outreach/application threads.
+- Inboxes, outreach/application threads: use the inbox skill for complete ID census, later-history reconciliation, final-stage employment versus advanced commerce qualification, separate official public cases, and actual cash-profit calculations.
 - Monetization surfaces, experiment surfaces, fraud/legal/evidence surfaces.
 - Any live operational risks.
 
@@ -29,7 +29,7 @@ Compare claimed state vs actual state. Find:
 - orphaned drafts
 - status mismatches between code/infra and tracker/dashboard/communication
 
-Reopen, finish, or log each one. Every diff item gets either an action or a BLOCKERS.md line.
+Reopen, finish, or log each one. Every in-scope diff gets an authorized action or an exact external dependency recorded in the existing native/runtime ledger.
 
 ## Phase C — Triage
 
@@ -41,7 +41,7 @@ Rank candidate items by:
 4. blast radius
 5. time-to-kill
 
-Pick the top items that fit this run. Execute now. Do not produce a roadmap or a plan-only output.
+For earning work, apply qualified stage and supported cash-profit gates first; keep public cases, advanced commerce, obligations, early leads and noncash benefits distinct. A real loss can override action priority without becoming revenue. Pick the top items that fit the authorized scope of this run. Execute now. Do not produce a roadmap or a plan-only output.
 
 ## Phase D — Per-Item Loop
 
@@ -56,7 +56,7 @@ For each top item:
 7. Log 1-line proof.
 8. Do obvious cleanup (clear stash, delete dead branch, revert temp flag, remove dead code).
 
-Hard exit-loop guard: if one item takes >15 minutes, or >3 failed attempts, or 2 identical failures, stop on that item, append to BLOCKERS.md, move on.
+On failure, retain successful state and inspect the precise cause before a materially different supported correction. Keep blockers in existing native/runtime state, with no arbitrary attempt/time cap and no new local tracker. Continue independent work.
 
 ## Phase E — Global Sweeps (every morning)
 
