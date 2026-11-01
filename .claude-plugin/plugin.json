@@ -1,6 +1,6 @@
 {
   "name": "morning-operator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Autonomous morning operator: detect and close the highest-leverage incomplete, partial, stale, or risky work each morning. Acts first, reports after. Sami's daily run-now protocol.",
   "author": {
     "name": "Sami Halawa",

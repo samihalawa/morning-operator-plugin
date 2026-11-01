@@ -1,0 +1,58 @@
+{
+  "name": "morning-operator",
+  "version": "0.1.1",
+  "description": "Autonomous morning operator: detect and close the highest-leverage incomplete, partial, stale, or risky work each morning. Acts first, reports after. Sami's daily run-now protocol.",
+  "author": {
+    "name": "Sami Halawa",
+    "email": "samihalawaster@gmail.com"
+  },
+  "homepage": "https://github.com/samihalawa/morning-operator-plugin",
+  "repository": "https://github.com/samihalawa/morning-operator-plugin",
+  "license": "MIT",
+  "keywords": [
+    "autonomy",
+    "daily-run",
+    "morning-operator",
+    "audit",
+    "sweep",
+    "kiss",
+    "evidence-first"
+  ],
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "Morning Operator",
+        "shortDescription": "Evidence-first work review",
+        "longDescription": "Run a one-off review of incomplete work using the connected tools and repositories available in your current environment. The bundled protocol inspects current context, compares claimed and verified state, prioritizes useful work, and reports concrete outcomes and remaining dependencies. It is Sami Halawa's personal operator protocol. It does not bundle email, calendar, CRM, deployment or browser services, and does not schedule recurring runs. Local repository checks require a desktop executor.",
+        "developerName": "Sami Halawa",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "websiteURL": "https://github.com/samihalawa/morning-operator-plugin",
+        "defaultPrompt": [
+          "Review my current work and identify the highest-priority incomplete item.",
+          "Compare the current repository state with the work reported as finished.",
+          "Run a one-off morning review using the tools connected to this chat."
+        ],
+        "supportURL": "https://github.com/samihalawa/morning-operator-plugin/issues",
+        "logo": "./assets/icon.svg",
+        "composerIcon": "./assets/icon.svg",
+        "privacyPolicyURL": "https://github.com/samihalawa/morning-operator-plugin/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/samihalawa/morning-operator-plugin/blob/main/TERMS.md"
+      },
+      "review": {
+        "prompts": [
+          "Review my current work and identify the highest-priority incomplete item.",
+          "Compare the current repository state with the work reported as finished.",
+          "Run a one-off morning review using the tools connected to this chat."
+        ]
+      },
+      "publication": {
+        "release_notes": "Added portable package metadata, original icon, privacy and terms documentation; retained the existing workflows and runtime requirements."
+      }
+    }
+  }
+}
